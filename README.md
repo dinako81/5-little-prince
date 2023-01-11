@@ -14,7 +14,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/dinako81/5-mazasis-princas
+Site published at: https://dinako81.github.io/5-little-prince/
 
 Design: [Mazasis-princas](https://dribbble.com/shots/8061060-space-404-error-page)
 
