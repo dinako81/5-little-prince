@@ -7,9 +7,10 @@ body {
 .main, .hero {    
     width: 800px;
     margin-left: calc(50% - 400px);
+   
 }
 .hero {
-    margin-top: 3%;
+    margin-top: 2%;
 }
 .main {
     display: flex;
@@ -17,55 +18,59 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .logo {
     float: left;
-    width: 100px;
-    height: 70px;
+    height: 60px;
     object-fit: contain;
     object-position: left;
 }
 .nav {
+    margin-top: 32px;
     color: #191858;
     text-decoration: none;
     float: right;
 }
 .nav > .link {
     display: inline-block;
-    /* margin-left: 2em; */
+    margin-left: 2em;
     color: #070346;
     text-decoration: none;
     font-size: 12px;
-    line-height: 70px;
-    margin-right: 10px;
+    line-height: 12px;
+    font-weight: bold;
 }
-.link:first-child {
-    margin-right: 0;
+.nav > .link:hover {
+    text-decoration: underline;
+}
+.nav > .link:nth-of-type(5) {
+    margin-left: 0.8em;
+}
+.nav > .link:nth-of-type(6) {
+    margin-left: 0;
+}
+input {
+    width: 120px;
+    margin-right:2em;
+    background-color: #EDF1F5;
+    border: none;
+    border-radius: 999em;
+    font-size: 12px;
+    padding: 0.5em;
+    margin-left: 2em;    
 }
 .title {
     font-size: 40px;
     color: #110E5F;
     font-stretch: normal;
+    margin-bottom: 0px;
 }
 .description {
     color: #040051;
     font-size: 20px;
+    margin-top: 5px;    
 }
-.button {
-    align-items: center;
-    align-content: center;
-    background-color: #FDD6D0; 
-    color: #ED7863;
-    text-decoration: none;
-    font-size: 15px;
-    padding: 0.5em 1em;
-    border-radius: 0.3em;
-    font-weight: bold;
-    
+img {
+ margin-top: 10px;
+ margin-left: 40px;
 }
-/* .button:hover {
-    box-shadow: 0 2 3 5;
-} */
-
-/* img {} */
